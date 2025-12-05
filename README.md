@@ -1,16 +1,92 @@
-# React + Vite
+# 🌿 Financio – Financial Literacy Learning App
+### *Empowering rural India with simple, interactive financial education*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Financio** is a friendly, gamified learning platform designed to help first-time digital users—especially farmers, workers, homemakers, and small business owners—understand essential financial topics like banking, UPI safety, savings, insurance, and government schemes.
 
-Currently, two official plugins are available:
+The app delivers **bite-sized lessons**, **audio explanations**, **a smart chatbot**, and **XP-based rewards** to make learning easy and engaging.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📘 1. Interactive Lessons
+- Short, simple, beginner-friendly lessons  
+- Hindi + English content  
+- Audio explanations included  
+- Visual illustrations  
+- Tracks progress automatically  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📝 2. Gamified Quizzes
+- Multiple-choice questions  
+- Immediate feedback  
+- XP rewards based on correctness  
+- Level-up progression system  
+
+---
+
+### 🤖 3. Financio Chatbot
+A conversational financial assistant that helps users understand:
+- Banking  
+- UPI & digital payments  
+- Government schemes  
+- Crop insurance  
+- Online fraud prevention  
+
+Uses lightweight keyword-matching for fast responses.
+
+---
+
+### 🏆 4. Rewards & Badges
+- Total XP tracker  
+- Daily streaks  
+- Achievement badges  
+- Level progression  
+
+---
+
+### 👤 5. Personalized Onboarding
+Financio customizes lessons based on:
+- Occupation  
+- Education  
+- Annual income  
+
+---
+
+## 🖼️ Screens Included
+
+| Screen | Purpose |
+|--------|---------|
+| Onboarding | User setup |
+| Home | Recommended lessons + XP summary |
+| Lesson Player | Audio + reading content |
+| Quiz | MCQs with explanations |
+| Chatbot | Ask Financio anything |
+| Rewards | XP, badges, streak |
+| Bottom Navigation | Home • Chatbot • Rewards |
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js  
+- Tailwind CSS  
+- Lucide Icons  
+- JSON-based learning engine  
+- React Hooks
+
+## 🧪 Future Enhancements
+
+- AI-powered chatbot (OpenAI / Llama / Gemini)
+- Offline-friendly design
+- Regional language support (Marathi, Bengali, Punjabi, Tamil)
+- Voice-to-text questions
+- Backend integration for persistent progress
+- NGO / Govt program analytics dashboard
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
