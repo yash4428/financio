@@ -1,4 +1,6 @@
+# =====================
 # Logs
+# =====================
 logs
 *.log
 npm-debug.log*
@@ -7,18 +9,49 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# =====================
+# Node (if frontend exists)
+# =====================
 node_modules
 dist
 dist-ssr
 *.local
 
-# Editor directories and files
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.env
+.env.*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =====================
+# FastAPI / Uvicorn
+# =====================
+*.pid
+
+# =====================
+# Editor / IDE
+# =====================
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
